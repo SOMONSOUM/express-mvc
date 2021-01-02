@@ -1,4 +1,4 @@
-# SAHAKAZONE PROJECT
+# SAMPLE EXPRESS JS BACKEND
 
 An App to keep track of your courses
 
