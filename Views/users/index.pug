@@ -1,0 +1,7 @@
+extends ../layouts/main
+
+block content
+  ul
+    each user in users
+      li= user.username
+  button.btn.btn-primary Click Me

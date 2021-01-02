@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["ES6"],
+    "outDir": "./build",
+    "removeComments": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@Models/*": ["App/Models/*"],
+      "@Databases/*": ["Databases/*"],
+      "@Controllers/*": ["App/Controllers/*"],
+      "@Routes/*": ["Routes/*"],
+      "@Middlewaires/*": ["App/Middlewares/*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./App/@types"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
